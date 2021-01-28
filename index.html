@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Blog</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <a href="#" class="logo">Movie Blog</a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Links</a>
+          <a href="#">Links</a>
+          <a href="#">Links</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="container">
+      <div class="banner-content">
+        <p class="rating"><span>6.7</span></p>
+        <h1 class="movie-title">The Avengers</h1>
+        <p class="movie-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sint esse consequatur error commodi laudantium
+          suscipit, dolorum harum iusto, a cum blanditiis deserunt, ad odio. Aliquam cumque consequatur illum sapiente.</p>
+        <div class="row">
+          <a href="#">See Details</a>
+          <button>Add to List</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="trending">
+    <div class="container">
+      <h3 class="section-title">Trending Movies</h3>
+      <div class="row" id="movie-grid">
+        <!-- JAVASCRIPT WILL INSERT SOME CONTENT HERE -->
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="index.js"></script>
+</body>
+</html>

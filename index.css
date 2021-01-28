@@ -1,0 +1,129 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+header {
+  background-color: red;
+}
+
+header .row {
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+nav a {
+  margin: 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  transition: all 0.7s;
+}
+
+nav a:hover {
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  width: 50%;
+}
+
+.banner-content .rating {
+  font-size: 20px;
+}
+
+.banner-content .movie-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.banner-content .movie-desc {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.banner-content a {
+  background-color: #f00;
+  padding: 15px 20px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.banner-content button {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.trending {
+  /* background-color: blue; */
+  padding: 30px 0;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#movie-grid {
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.movie-card h4 {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.movie-card .row {
+  justify-content: space-between;
+}
+
+.movie-card p {
+  font-size: 12px;
+}
